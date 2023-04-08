@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Besley, serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 80px;
+    background-color: #ff9a3c;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.imge-logo{
+    width: auto;
+    height: 100px;
+    padding: 0;
+}
+.logo{
+    padding: 0;
+}
+.right-bar , .left-bar{
+    display: flex;
+    align-items: center;
+}
+.cat1{
+    width: auto;
+    height: 320px;
+    margin-top: 40px;
+}
+.container-first{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9a3c;
+    color: white;
+    padding-bottom: 40px;
+}
+.title{
+    font-size: 42px;
+    font-weight: 600;
+}
+.para1{
+    font-size: 18px;
+}
+.button-signup-first{
+    display: flex;
+    background-color: #DE3163;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border-color: #DE3163;
+    margin:30px auto;
+    font-size: 16px;
+}
+.title-second{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    border-radius: 8px;
+    border:#DE3163 solid;
+    height: 250px;
+    margin: 24px;
+}
