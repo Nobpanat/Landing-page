@@ -95,6 +95,10 @@ a{
     height: 250px;
     margin: 0 24px;
 }
+.card img{
+    width: 250px;
+    height: 250px
+}
 .container-card{
     display: flex;
     flex-direction: column;
