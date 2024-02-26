@@ -33,8 +33,8 @@ a{
     font-size: 20px;
 }
 .imge-logo{
-    width: auto;
-    height: 100px;
+    max-width: 128px;
+    height: auto;
     padding: 0;
 }
 .logo{
@@ -45,11 +45,11 @@ a{
     align-items: center;
 }
 .cat1{
-    width: 500px;
+    /* width: 500px; */
     height: auto;
     margin-top: 40px;
-    /* max-width: 100%;
-    max-height: auto; */
+     max-width: 284px; 
+    /* max-height: auto;  */
 }
 .container-first{
     display: flex;
@@ -124,7 +124,8 @@ a{
     display: flex;
     flex:1;
     background-color: #DE3163;
-    margin: 60px 200px;
+    /* margin: 60px 200px; */
+    margin: 60 60;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
